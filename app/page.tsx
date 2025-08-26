@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button";
-
 import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
 import { Calendar, Plus, BookOpen, Search, Settings } from "lucide-react";
 import {
   Table,
@@ -13,14 +11,6 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { caveat } from "@/lib/fonts";
-
-interface JournalEntry {
-  id: string;
-  title: string;
-  content: string;
-  date: string;
-  mood?: string;
-}
 
 export default function JournalApp() {
   return (
